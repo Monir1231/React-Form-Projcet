@@ -35,17 +35,17 @@ function From(){
             <h1 className="text-2xl font-semibold text-gray-800 text-center ">Login from</h1>
             <form >
                 <div className="mt-3">
-                    <label className="block text-lg text-gray-600">Name:</label>
+                    <label className=" block text-lg text-gray-600">Name:</label>
                     <input onChange={handleChange} type="text" placeholder="Enter your name" className="block mt-1 w-full px-3 py-2 border rounded-md" name="name" value={formdata.name}/>
                 </div>
 
                 <div className="mt-3">
-                    <label className="block text-lg text-gray-600">Email:</label>
+                    <label className=" block text-lg text-gray-600">Email:</label>
                     <input onChange={handleChange} type="text" placeholder="Enter your Email" className="block mt-1 w-full px-3 py-2 border rounded-md" name="email" value= {formdata.email} />
                 </div>
 
                 <div className="mt-3">
-                    <label className="block text-lg text-gray-600">Password:</label>
+                    <label className=" block text-lg text-gray-600">Password:</label>
                     <input type="password" placeholder="Enter your Password" className="block mt-1 w-full px-3 py-2 border rounded-md" />
                 </div>
 
@@ -54,8 +54,8 @@ function From(){
 
             <div>
                 <h2 className="text-center font-semibold mt-5 ">User from:</h2>
-                <p className="text-gray-400 text-left py-2">Name:{SubmittedData.name}</p>
-                <p className="text-gray-400 text-left">Email:{SubmittedData.email}</p>
+                <p className="text-gray-500 text-left py-2">Name:{SubmittedData.name}</p>
+                <p className="text-gray-500 text-left">Email:{SubmittedData.email}</p>
             </div>
          </div>
 

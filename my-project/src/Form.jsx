@@ -54,8 +54,8 @@ function From(){
 
             <div>
                 <h2 className="text-center font-semibold mt-5 ">User from:</h2>
-                <p className="text-gray-500 text-left py-2">Name:{SubmittedData.name}</p>
-                <p className="text-gray-500 text-left">Email:{SubmittedData.email}</p>
+                <p className="text-gray-400 text-left py-2">Name:{SubmittedData.name}</p>
+                <p className="text-gray-400 text-left">Email:{SubmittedData.email}</p>
             </div>
          </div>
 
